@@ -1,4 +1,19 @@
-$body-bg:         #3498db;
-$navbar-inverse-bg: #2980b9;
-$navbar-inverse-link-color: white;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+$body-bg:         				#ecf0f1;
+$font-family-sans-serif:		'Lato', 'Helverica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:					45px; 
+$navbar-default-bg: white;
+$navbar-dedault-brand-color: #c0392b;
+$navbar-primary:			#c0392b;
+$jumbotron-bg:				white;
+
 @import 'bootstrap'; 
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
