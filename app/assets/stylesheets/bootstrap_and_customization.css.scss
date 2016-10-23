@@ -6,7 +6,6 @@ $navbar-height:					45px;
 $navbar-default-bg: white;
 $navbar-dedault-brand-color: #c0392b;
 $navbar-primary:			#c0392b;
-$jumbotron-bg:				white;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -18,4 +17,11 @@ $jumbotron-bg:				white;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.jumbotron {
+    background: url("latte.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: white;
 }

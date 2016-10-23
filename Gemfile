@@ -12,7 +12,6 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 4.2.0'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2.0'
-gem 'sqlite3', groups: %w(test development), require: false
 gem 'pg', groups: %w(production), require: false
 gem 'masonry-rails', '~> 0.2.0'
 gem 'will_paginate', '~> 3.0.5'
